@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.herosec{
+    width: 100%;
+    height: calc(85vh - 109px);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./images/heropic.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.herosec img{
+    height: 100%;
+    width: 100%;
+}
+
+.herosec-left{
+    width: 40%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herosec-left h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.herosec-right{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+.herosec-right-inner{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    color: white;
+    border-radius: 6px;
+}
+
+.herosec-right-inner h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.input{
+    padding: 10px;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+}
+
+.select{
+    padding: 10px;
+    outline: none;
+    border: 2px solid white;
+}
+
+.input::placeholder{
+    color: lightgray;
+}
+
+.btn{
+    padding: 10px;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.news-body-container{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.news-head{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(43, 42, 42);
+}
+
+.news-body-left-side{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-wrapper{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.news-wrapper a{
+    color: rgb(42, 86, 231);
+}
+
+.news-wrapper img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.news-wrapper span{
+    color: gray;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 956px) {
+    .herosec-right-inner h3 {
+        font-size: 25px;
+    }
+
+    .input{
+        padding: 8px;
+    }
+
+    .select{
+        padding: 8px;
+    }
+
+    .herosec-right-inner p{
+        font-size: 14px;
+    }
+
+    .herosec-left h1{
+        font-size: 40px;
+    }
+
+    .btn{
+        padding: 8px;
+    }
+   }
+
+   @media screen and (max-width: 782px) {
+    .herosec-right-inner h3 {
+        font-size: 20px;
+    }
+
+    .herosec-right-inner p{
+        font-size: 13px;
+    }
+
+    .herosec-left{
+        padding: 10px;
+    }
+
+    .news-body-left-side{
+        width: 90%;
+    }
+   }
+
+   @media screen and (max-width: 632px) {
+       .herosec{
+           flex-direction: column;
+           align-items: center;
+           height: unset;
+           padding: 20px;
+       }
+    .herosec-right{
+        width: 80%;
+    }
+
+    .herosec-right-inner{
+        width: 100%;
+    }
+
+    .herosec-left{
+        width: 80%;
+    }
+
+    .news-body-left-side{
+        width: 100%;
+    }
+   }
+
+   @media screen and (max-width: 430px) {
+ .herosec-right{
+     width: 100%;
+ }
+
+ .herosec-right-inner{
+     width: 100%;
+ }
+
+ .herosec-left{
+     width: 100%;
+ }
+
+ .news-body-container{
+     padding: 10px;
+ }
+
+}
+
+@media screen and (max-width: 330px) {
+    .herosec-right{
+        padding: 10px;
+    }
+   
+   }
