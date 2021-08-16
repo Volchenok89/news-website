@@ -37,9 +37,9 @@ ___
 
 ## Links for the Github repositories and the deployed application.
 
-(https://github.com/Volchenok89/news-search)
+(https://github.com/Volchenok89/news-website)
 
-https://volchenok89.github.io/news-search/
+https://volchenok89.github.io/news-website/
 
 ___
 
